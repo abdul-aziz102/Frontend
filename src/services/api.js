@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Use deployed backend URL - no localhost references
-const API_URL = 'https://backend-gamma-hazel-76.vercel.app';
+// Use deployed backend URL - include /api prefix
+const API_URL = 'https://backend-gamma-hazel-76.vercel.app/api';
 
 const api = axios.create({
   baseURL: API_URL,
